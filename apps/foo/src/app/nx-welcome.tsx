@@ -425,6 +425,7 @@ export function NxWelcome({ title }: { title: string }) {
               Welcome {title} 👋,
               app name=[{appName}]
               [TEST]
+              - update1
             </h1>
           </div>
 
