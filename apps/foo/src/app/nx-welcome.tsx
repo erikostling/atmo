@@ -424,6 +424,7 @@ export function NxWelcome({ title }: { title: string }) {
               <span> Hello there, </span>
               Welcome {title} 👋,
               app name=[{appName}]
+              [TEST]
             </h1>
           </div>
 
