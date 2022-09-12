@@ -419,6 +419,7 @@ export function NxWelcome({ title }: { title: string }) {
             <h1>
               <span> Hello there, </span>
               Welcome {title} 👋
+              - new feature
             </h1>
           </div>
 
