@@ -6,6 +6,10 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
 export function NxWelcome({ title }: { title: string }) {
+  const appName = process.env['NX_APP_NAME']
+
+  console.log({ appName })
+
   return (
     <>
       <style
@@ -418,7 +422,8 @@ export function NxWelcome({ title }: { title: string }) {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome {title} 👋
+              Welcome {title} 👋,
+              app name=[{appName}]
             </h1>
           </div>
 
